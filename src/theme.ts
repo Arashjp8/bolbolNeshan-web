@@ -10,6 +10,11 @@ const theme = extendTheme({
     body: "vazirmatn",
     heading: "vazirmatn",
   },
+  colors: {
+    customBlue: {
+      500: "#3182ce",
+    },
+  },
   config,
 });
 
