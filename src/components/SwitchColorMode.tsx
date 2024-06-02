@@ -5,11 +5,11 @@ function SwitchColorMode() {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <HStack spacing={2}>
-      <Icon fontSize={"lg"}>{<MoonIcon />}</Icon>
+      <Icon fontSize={"xl"}>{<MoonIcon />}</Icon>
       <Switch
         isChecked={colorMode === "dark"}
         onChange={toggleColorMode}
-        colorScheme={"teal"}
+        //colorScheme={"teal"}
         size={"lg"}
         isFocusable
       />

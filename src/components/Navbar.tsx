@@ -3,7 +3,7 @@ import SwitchColorMode from "./SwitchColorMode";
 
 function Navbar() {
   return (
-    <HStack paddingX={4} paddingY={2} justifyContent={"space-between"}>
+    <HStack paddingX={4} paddingY={2} justifyContent={"space-between"} width={"100%"}>
       <SwitchColorMode />
       <Link href={"#"} fontSize={"2xl"} fontWeight={"bold"}>
         بلبل نشان
