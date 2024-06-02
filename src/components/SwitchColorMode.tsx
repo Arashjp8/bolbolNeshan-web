@@ -9,7 +9,6 @@ function SwitchColorMode() {
       <Switch
         isChecked={colorMode === "dark"}
         onChange={toggleColorMode}
-        //colorScheme={"teal"}
         size={"lg"}
         isFocusable
       />

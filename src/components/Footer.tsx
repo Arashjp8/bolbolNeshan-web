@@ -8,6 +8,7 @@ function Footer() {
       justifyContent={"center"}
       alignItems={"center"}
       w={"100%"}
+      minWidth={"400px"}
       h={"100px"}
       bg={bgColor}
     >

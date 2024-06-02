@@ -12,8 +12,7 @@ function Body() {
       justifyContent={"center"}
       alignItems={"center"}
     >
-      <div>Body</div>
-      <Text fontSize={"6xl"}>سلام بچ</Text>
+      <Text fontSize={"6xl"}>👋 سلام بچ</Text>
     </Box>
   );
 }

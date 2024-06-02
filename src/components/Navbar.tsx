@@ -1,13 +1,19 @@
-import { HStack, Link } from "@chakra-ui/react";
+import { HStack, Image } from "@chakra-ui/react";
 import SwitchColorMode from "./SwitchColorMode";
+import Logo from "../assets/MiniLogo-Blue.svg";
 
 function Navbar() {
   return (
-    <HStack paddingX={4} paddingY={2} justifyContent={"space-between"} width={"100%"}>
+    <HStack
+      paddingX={4}
+      paddingY={2}
+      justifyContent={"space-between"}
+      alignItems={"center"}
+      width={"100%"}
+      minWidth={"400px"}
+    >
       <SwitchColorMode />
-      <Link href={"#"} fontSize={"2xl"} fontWeight={"bold"}>
-        بلبل نشان
-      </Link>
+      <Image src={Logo} alt="Logo" width={"50px"} height={"50px"} />
     </HStack>
   );
 }
