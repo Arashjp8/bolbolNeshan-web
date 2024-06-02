@@ -1,6 +1,6 @@
 import { HStack, Image } from "@chakra-ui/react";
 import SwitchColorMode from "./SwitchColorMode";
-import Logo from "../assets/MiniLogo-Blue.svg";
+import Logo from "../assets/bolbol.svg";
 import NavigationOptions from "./NavigationOptions";
 
 function Navbar() {
