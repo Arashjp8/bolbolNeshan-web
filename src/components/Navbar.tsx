@@ -1,6 +1,7 @@
 import { HStack, Image } from "@chakra-ui/react";
 import SwitchColorMode from "./SwitchColorMode";
 import Logo from "../assets/MiniLogo-Blue.svg";
+import NavigationOptions from "./NavigationOptions";
 
 function Navbar() {
   return (
@@ -13,6 +14,7 @@ function Navbar() {
       minWidth={"400px"}
     >
       <SwitchColorMode />
+      <NavigationOptions />
       <Image src={Logo} alt="Logo" width={"50px"} height={"50px"} />
     </HStack>
   );
