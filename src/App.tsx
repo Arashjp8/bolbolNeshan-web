@@ -1,14 +1,15 @@
-import { Button, useColorMode } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 import "./App.css";
+import Header from "./components/Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 
 function App() {
-  const { colorMode, toggleColorMode } = useColorMode();
   return (
     <>
-      <Button onClick={toggleColorMode}>
-        Toggle {colorMode === "light" ? "Dark" : "Light"}
-      </Button>
-      <div>سلام بچ</div>
+      <Header />
+      <Body />
+      <Footer />
     </>
   );
 }
