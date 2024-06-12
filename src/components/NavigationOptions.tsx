@@ -6,7 +6,7 @@ function NavigationOptions() {
       <Link href={"#"} fontSize={"lg"}>
         بلبل مارکت
       </Link>
-      <Link href={"#"} fontSize={"lg"}>
+      <Link href={"https://bolbolkms.liara.run/"} fontSize={"lg"}>
         مدیریت دانش
       </Link>
     </HStack>
